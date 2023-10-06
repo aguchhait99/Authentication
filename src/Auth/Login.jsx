@@ -53,7 +53,7 @@ const Login = () => {
         <Container maxWidth="sm">
           <h1 style={{ textAlign: "center" }}>Login Form</h1>\
           <form onSubmit={handleSubmit}>
-            <FormGroup
+            < FormGroup
               sx={{
                 width: "50%",
                 margin: "auto",
@@ -61,7 +61,7 @@ const Login = () => {
                 boxShadow: "0px 0px 30px rgba(0,0,0,1)",
               }}
             >
-              <FormControl sx={{ paddingBottom: 2 }}>
+              <FormControl sx={{ paddingBottom: 2 }} >
                 <InputLabel>Email</InputLabel>
                 <Input
                   type="email"
