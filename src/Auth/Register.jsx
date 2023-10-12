@@ -51,7 +51,7 @@ const Register = () => {
   };
   return (
     <>
-      <Layout title={"Register Page"}>
+      <Layout title={"Register-Page"}>
         <Container maxWidth="sm">
           <h1 style={{ textAlign: "center" }}>Register Form</h1>
           <form onSubmit={handleSubmit}>

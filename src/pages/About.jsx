@@ -6,7 +6,7 @@ const About = () => {
     const [auth, setAuth] = useAuth()
   return (
     <>
-      <Layout>
+      <Layout title={'About'}>
       <pre>{JSON.stringify(auth,null ,4)}</pre>
       </Layout>
     </>

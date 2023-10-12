@@ -49,7 +49,7 @@ const Login = () => {
 
   return (
     <>
-      <Layout title={"Login Page"}>
+      <Layout title={"Login-Page"}>
         <Container maxWidth="sm">
           <h1 style={{ textAlign: "center" }}>Login Form</h1>\
           <form onSubmit={handleSubmit}>
